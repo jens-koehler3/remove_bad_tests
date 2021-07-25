@@ -1,0 +1,2 @@
+change_year.pl -f AMA -i GEN_496196347164_BayKom2017_01_Mobil -o GEN1_496196347164_BayKom2017_01_Mobil
+change_year.pl -f AMA -i GEN_496196347162_BayKom2017_01_Mobil -o GEN1_496196347162_BayKom2017_01_Mobil

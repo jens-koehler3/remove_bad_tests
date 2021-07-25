@@ -1,6 +1,6 @@
 #! /bin/ksh
 
-for dir in $(find . -type d -name test_results -exec sed -E 's/\.\\///gm;t;d' +) ; do
+for dir in $(find . -type d -name 'test_results' -exec sed -E 's/\.\\///gm;t;d' +) ; do
 	echo "$dir" >> "scan_rm_datei"
 		#scanfile=scan_rm_datei
 	#for dir in $(egrep -e "./" $scanfile)
